@@ -1,11 +1,11 @@
 import {Component} from 'angular2/core';
-import {Arc} from './arc';
+import {Smiley} from './smiley';
 
 @Component({
   selector: 'home',  // <home></home>
-  directives: [Arc],
+  directives: [Smiley],
   template: require('./home.html')
 })
 export class Home {
-  angle:number = 0.3;
+  happiness:number = 0.3;
 }

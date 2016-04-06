@@ -1,5 +1,6 @@
-<svg height="100" width="100">
-  <g arc [angle]="angle"></g>
+<svg height="100" width="130">
+  <g transform="translate(65,50)" smiley happiness="{{ happiness }}"></g>
 </svg>
-<input type="range" min="0.05" step="0.01" max="0.6" [(ngModel)]="angle"/>
-{{ angle }}
+<br>
+<input type="range" min="0.05" step="0.01" max="0.45" [(ngModel)]="happiness"/>
+{{ happiness }}
